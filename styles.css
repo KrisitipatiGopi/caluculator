@@ -1,0 +1,40 @@
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 122, 122);
+    height: 100vh;
+  }
+  .caluculator{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .caluculator input{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    transition: box-shadow 0.3s;
+    
+
+  }
+  .display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .display input{
+    width: 100%;
+    text-align: end;
+  }
